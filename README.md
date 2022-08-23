@@ -12,7 +12,7 @@ cmd : java -jar tomcat_encryptModule.jar
 ※EncryptedDataSourceFactory의 full path 기억하기
 ```
 ![image](https://user-images.githubusercontent.com/29367023/185823873-3c52542f-504f-4f58-a3b3-732ad3f8dc65.png)
-![image](https://user-images.githubusercontent.com/29367023/185825916-4c7b100a-8168-4027-9eb4-e624f0234ec0.png)
+![image](https://user-images.githubusercontent.com/29367023/186051524-5ccba25f-bce1-4570-8c15-4cc8f354dd60.png)
 
 ### [Maven Repository]
 ```
