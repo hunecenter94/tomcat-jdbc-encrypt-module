@@ -1,5 +1,8 @@
 # !/bin/bash
 
+#[참고]
+#https://blog.naver.com/PostView.nhn?blogId=occidere&logNo=221285584339&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
 # 현재 프로젝트 명
 project_name=tomcatEncryptModule
 
