@@ -17,17 +17,17 @@ cmd : java -jar tomcat_encryptModule.jar
 ### [Maven Repository]
 ```
   <repository>
-  		<id>Motti-snapshot</id>
-  		<url>https://github.com/occidere/occidere-maven-repo/tree/master/snapshots</url>
+   <id>tomcatEncryptModule-snapshot</id>
+   <url>https://github.com/hunecenter94/tomcatEncryptModule-maven-repo/tree/main/snapshots</url>
   </repository>
 ```
 
 ### [Mavne Dependency]
 ```
  <dependency>
-        <groupId>com.github</groupId>
-        <artifactId>tomcatEncryptModule</artifactId>
-        <version>0.0.1</version>
+   <groupId>com.github</groupId>
+   <artifactId>tomcatEncryptModule</artifactId>
+   <version>0.0.1</version>
  </dependency>
 ```
 
