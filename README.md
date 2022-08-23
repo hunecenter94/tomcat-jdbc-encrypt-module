@@ -14,7 +14,15 @@ cmd : java -jar tomcat_encryptModule.jar
 ![image](https://user-images.githubusercontent.com/29367023/185823873-3c52542f-504f-4f58-a3b3-732ad3f8dc65.png)
 ![image](https://user-images.githubusercontent.com/29367023/185825916-4c7b100a-8168-4027-9eb4-e624f0234ec0.png)
 
-### [Dependency]
+### [Maven Repository]
+```
+  <repository>
+  		<id>Motti-snapshot</id>
+  		<url>https://github.com/occidere/occidere-maven-repo/tree/master/snapshots</url>
+  </repository>
+```
+
+### [Mavne Dependency]
 ```
  <dependency>
         <groupId>com.github</groupId>
