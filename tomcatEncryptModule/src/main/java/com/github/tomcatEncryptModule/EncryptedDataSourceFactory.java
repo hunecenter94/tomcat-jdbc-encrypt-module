@@ -37,7 +37,11 @@ public class EncryptedDataSourceFactory extends DataSourceFactory {
         poolProperties.setUrl(encryptor.decrypt(poolProperties.getUrl()));
         poolProperties.setUsername(encryptor.decrypt(poolProperties.getUsername()));
         poolProperties.setPassword(encryptor.decrypt(poolProperties.getPassword()));
-
+        /** 지속 적인 connection 유지를 위해 설정 추가 **/
+        poolProperties.setValidationQuery("SELECT 1"); //Oracle SELECT 1 FROM DUAL; 그외 SELECT 1 
+        poolProperties.setTestWhileIdle(true);
+        poolProperties.setTimeBetweenEvictionRunsMillis(720000);//2시간 단위로 SELECT 1 검증
+                
         // The rest of the code is copied from Tomcat's DataSourceFactory.
         if (poolProperties.getDataSourceJNDI() != null && poolProperties.getDataSource() == null) {
             performJNDILookup(context, poolProperties);
